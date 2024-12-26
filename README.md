@@ -41,7 +41,7 @@ To set up the project environment, follow these steps:
 To train the model with your dataset:
 
 ```bash
-python train.py --data data.yaml --weights yolov5s.pt --epochs 500 --batch 64 --img 640
+python train.py --data data.yaml --weights yolov11n.pt --epochs 500 --batch 64 --img 640
 ```
 
 ### Inference
@@ -51,3 +51,13 @@ To run inference and detect diseases in images:
 ```bash
 python detect.py --weights runs/train/exp/best.pt --img 640 --conf 0.25 --source data/images/
 ```
+## Results
+
+- **defects pred**
+  <img src="results/val_batch0_pred.jpg" height="500px" width="100%"
+        style="object-fit:contain"
+    />
+- **defects**
+  <img src="results/val_batch0_label.jpg" height="500px" width="100%"
+        style="object-fit:contain"
+    />
