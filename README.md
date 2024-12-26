@@ -51,6 +51,14 @@ To run inference and detect diseases in images:
 ```bash
 python detect.py --weights runs/train/exp/best.pt --img 640 --conf 0.25 --source data/images/
 ```
+
+## Metrics
+
+- **defects label**
+  <img src="results/results.png" height="500px" width="100%"
+        style="object-fit:contain"
+    />
+
 ## Results
 
 - **defects pred**
