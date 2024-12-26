@@ -57,7 +57,7 @@ python detect.py --weights runs/train/exp/best.pt --img 640 --conf 0.25 --source
   <img src="results/val_batch0_pred.jpg" height="500px" width="100%"
         style="object-fit:contain"
     />
-- **defects**
+- **defects label**
   <img src="results/val_batch0_labels.jpg" height="500px" width="100%"
         style="object-fit:contain"
     />
