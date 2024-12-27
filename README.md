@@ -5,6 +5,7 @@ This project implements a fabric anomaly detection system using YOLOv5, YOLOv8x,
 ## Dataset
 
 - Source: Roboflow Universe
+- url: https://universe.roboflow.com/visitesse/d-h6tqc/dataset/4
 - Version: 4
 - Format: YOLO format
 - Classes: ["anomaly"]
