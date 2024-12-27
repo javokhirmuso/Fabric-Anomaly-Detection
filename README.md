@@ -55,7 +55,6 @@ python detect.py --weights runs/train/exp/best.pt --img 640 --conf 0.25 --source
 
 ## Metrics
 
-- **defects label**
   <img src="results/results.png" height="500px" width="100%"
         style="object-fit:contain"
     />
