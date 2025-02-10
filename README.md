@@ -14,7 +14,7 @@ This project implements a fabric anomaly detection system using YOLOv5, YOLOv8x,
 
 - YOLOv5
 - YOLOv8x
-- YOLOv11n
+- YOLO11n
 
 ## Installation
 
